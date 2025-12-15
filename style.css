@@ -1,0 +1,95 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: linear-gradient(135deg, #f4f8f7, #e8f1f0);
+  font-family: "Segoe UI", Tahoma, Arial;
+}
+
+.app-container {
+  max-width: 430px;
+  margin: auto;
+  padding: 20px;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.header h1 {
+  margin: 0;
+  color: #0f4c5c;
+}
+
+.header p {
+  color: #666;
+  font-size: 14px;
+}
+
+.card {
+  background: #ffffff;
+  border-radius: 16px;
+  padding: 16px;
+  margin-bottom: 16px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.07);
+}
+
+.card h2 {
+  margin-bottom: 12px;
+  font-size: 16px;
+  color: #0f4c5c;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  border: 1px solid #ddd;
+  font-size: 14px;
+}
+
+textarea {
+  resize: none;
+  height: 80px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+}
+
+.item {
+  background: #f2f7f6;
+  padding: 10px;
+  border-radius: 10px;
+  font-size: 13px;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  cursor: pointer;
+}
+
+.item input {
+  accent-color: #0f4c5c;
+}
+
+.submit-btn {
+  width: 100%;
+  padding: 15px;
+  background: #0f4c5c;
+  color: #fff;
+  border: none;
+  border-radius: 16px;
+  font-size: 17px;
+  cursor: pointer;
+  box-shadow: 0 10px 25px rgba(15,76,92,.35);
+}
+
+.submit-btn:active {
+  transform: scale(0.97);
+}
